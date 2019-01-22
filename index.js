@@ -192,7 +192,7 @@ client.on("message", (message) => {
         if (message.content === mdp) {
             var mdpembed = new Discord.RichEmbed()
                 .setColor('#00B212')
-                .addField(":white_check_mark:  Bon mot de passe, vous êtes accepté sur le serveur ! :white_check_mark: ", "‏")
+                .addField(":white_check_mark:  BON MOT DE PASSE, VOUS ÊTES ACCEPTE SUR LE SERVEUR ! :white_check_mark: ", "‏")
                 .setTimestamp()
                 .setFooter("VALIDE")
             message.author.createDM().then(channel => {
